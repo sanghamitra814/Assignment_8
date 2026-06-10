@@ -1,0 +1,46 @@
+/* Minimal styles for StudentForm component */
+.student-form {
+  max-width: 480px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f7f9fb;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  font-family: sans-serif;
+}
+
+.student-form h2 {
+  margin: 0 0 0.75rem 0;
+}
+
+.student-form label {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.student-form input {
+  width: 100%;
+  padding: 0.45rem 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  margin-top: 0.8rem;
+  text-align: right;
+}
+
+.form-actions button {
+  padding: 0.45rem 0.9rem;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-actions button:hover { opacity: 0.95 }
